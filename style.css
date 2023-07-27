@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 128px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    gap: 8px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.info {
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 300px;
+    max-height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-two {
+    text-align: center;
+}
