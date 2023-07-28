@@ -22,24 +22,61 @@ body {
 .info {
     display: flex;
     /* flex: 1; */
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 32px 0px;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-side img {
+    max-width: 600px;
 }
 
 img {
     max-width: 300px;
-    max-height: 150px;
+    max-height: 300px;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .header-two {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-down {
+    text-align: center;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
     text-align: center;
 }
